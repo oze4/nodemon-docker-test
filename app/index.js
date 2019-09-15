@@ -10,8 +10,6 @@ app.set('port', port);
 // set app ip
 app.set('ip', '0.0.0.0');
 
-//app.use(express.static(__dirname + '../views'));
-
 // set up main routes
 app.use(HomeController)
 
